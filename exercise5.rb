@@ -3,7 +3,7 @@
 
 while distance
   if energy<=0
-    puts "Your energy is depleted! You may walk (+1 energy), rest (+2 energy), or eat (+5 energy)."
+    puts "Your energy is depleted! You may walk (+1 energy), rest (+2 energy), eat (+5 energy), or go home."
     action = gets.chomp
   else
     puts "Do you want to walk (-1 energy), run (-3 energy), or go home?"
